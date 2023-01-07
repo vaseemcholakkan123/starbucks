@@ -1,0 +1,321 @@
+body{
+    margin: 0px;
+}
+#navbar{
+    padding: 8px;
+    width: 100%;
+    height:50px;
+}
+#navlogo{
+    margin-left: 65px;
+    float: left;
+}
+.navtext{
+    font-size: 15px;
+    font-weight: 500;
+    padding-bottom: 4px;
+    font-family: SoDoSans_Semibold,Helvetica,sans-serif;
+    color: #212529;
+    float: left;
+    margin-left: 60px;
+}
+#searchbox{
+    box-shadow: .1px .1px .1px .1px;
+    padding: 8px;
+    padding-left: 25px;
+    padding-right: 23px;
+    margin-top: 5px;
+    display: flex;
+    margin-right: 125px;
+    float: right;
+    border-radius: 18px;
+}
+#searchinput{
+    outline: none;
+    border: none;
+    width: 170px;
+    font-size: 10px;
+    margin-right: 3px;
+    color: cadetblue;
+    font-weight: 300;
+}
+#searchimage{
+    margin-right: 7px;
+}
+#defimage{
+    margin-top: 9px;
+    float: right;
+    margin-right: 75px;
+}
+
+
+#rewardsection{
+    padding-top: 70px;
+    display: flex;
+    background-color: #1e3932 ;
+    width: 100%;
+    height: 80px;
+}
+#rewardtext{
+    font-size: 20px;
+    margin-left: 58px;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+}
+#rewardbutton{
+    margin-right: 80px;
+    margin-left: auto;
+    margin-top: 25px;
+    font-size: 17px;
+    color: aliceblue;
+    font-weight: 300;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 120px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: inherit;
+    border: 1px white solid;
+}
+#handcrafted{
+    display: flex;
+    width: 100%;
+    height: 200px;
+}
+.handcraftcard{
+    padding: 10px;
+    margin-left: 90px;
+    margin-top: 13px;
+    width: 125px;
+    height: 150px;
+}
+#firsthandcraft{
+    margin-left: 32px;
+}
+h2{
+    margin-top: 26px;
+    margin-left: 58px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.text{
+    text-align: center;
+    margin-top: 0px;
+    font-size: medium;
+    margin-left: 5px;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #212529;
+}
+.handcraftimg{
+    margin-inline: 16px;
+    border-radius: 100%;
+    cursor: pointer;
+    border: 2px white solid;
+}
+.handcraftimg:hover{
+    border: 2px green solid;
+}
+
+
+
+#barista{
+    width: 100%;
+    height: 330px;
+    background-color: #edebe9;
+}
+.baristacard{
+    margin-left: 25px;
+    border-radius: 11px;
+    display: block;
+    background-color: white;
+    box-shadow: .1px .1px 1px .1px;
+    width: 400px;
+    height: 170px;
+}
+#baristaslider{
+    display: flex;
+    margin-left: 48px;
+    margin-top: 20px;
+    width:91%;
+}
+.recimage{
+    object-fit: cover;
+    float: left;
+    margin-left: 25px;
+    margin-top: 18px;
+    border-radius: 10px;
+}
+.rectext{
+    margin-top: 47px;
+    float: left;
+    margin-left: -16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #212529;
+    font-weight: 600;
+    font-size: 15px;
+}
+.rate{
+    margin-left: -250px;
+    margin-top: 130px;
+    float: left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #1e3932;
+}
+.additem{
+    cursor: pointer;
+    padding: 5PX;
+    padding-left: 13PX;
+    padding-bottom: 6px;
+    padding-right: 10PX;
+    margin-top: 122px;
+    border-radius: 15px;
+    border: none;
+    background-color: #00754a;
+    color: #edebe9;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: small;
+    font-weight: 500;
+}
+.additem:hover{
+    background-color: #00311f;
+}
+    
+
+
+
+
+#christmasoffer{
+    display: flex;
+    width: 100%;
+}
+#offercardxmas{
+    display: flex;
+    width: 91%;
+    height: 220px;
+    background-color: #00754a;
+    border-radius: 8px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+#offerings{
+    padding-top: 8px;
+    padding-bottom: 80px;
+    padding-left: 70px;
+    display: flex;
+    width: 91%;
+}
+.offering{
+    box-shadow: 0 2px 4px #00000012,0 4px 5px #0000000f,0 1px 10px #0000001a;
+    border-radius: 14px;
+    margin-right: 27px;
+    background-color: #f9f9f9;
+    width: 400px;
+    height: 380px;
+}
+.offerrate{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-weight: 900;
+    color: #1e3932;
+}
+.additemoffer{
+    padding: 5PX;
+    padding-left: 13PX;
+    padding-bottom: 6px;
+    padding-right: 10PX;
+    margin-right: 24px;
+    margin-top: -31px;
+    float: right;
+    border-radius: 15px;
+    border: none;
+    background-color: #00754a;
+    color: #edebe9;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: small;
+    font-weight: 500;
+    cursor: pointer;
+}
+.additemoffer:hover{
+    background-color: #00311f;
+}
+
+
+
+
+#btn{
+    margin-top: 25px;
+    margin-left: 52px;
+    width: 77px;
+    height: 16px;
+    font-size: 9px;
+    background: azure;
+    color: #00754a;
+    border: none;
+    border-radius: 3px;
+    font-family: system-ui;
+    font-weight: 400;
+}
+
+
+
+
+
+#footer{
+    background-color: #00311f;
+    width: 100%;
+    height: 495px;
+}
+#footermain{
+    margin-left: 70px;
+    padding-top: 75px;
+}
+.footerheading{
+    padding-bottom: 7px;
+    font-size: 19px;
+    font-weight: 500;
+    color: #edebe9;
+    font-family: system-ui;
+}
+.footertext{
+    cursor: pointer;
+    padding-bottom: 11px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: system-ui;
+    color: #edebe9;
+}
+.footertext:hover{
+    color: #7c8389;
+}
+
+
+#lowfooter{
+    display: flex;
+    width: 89%;
+    padding-top: 9px;
+    height: 66px;
+    border-top: 1px solid #a0a0a0;
+    margin: auto;
+    margin-top: 50px;
+}
+.lowtext{
+    font-size: 12px;
+    border-right: 1px solid #a0a0a0;
+    height: 7px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+
+.overlay{
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    border-radius: 12px;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(359.89deg,rgba(0,0,0,.74) 19.45%,rgba(0,0,0,.383063) 55.07%,rgba(0,0,0,0) 73.63%)!important;
+}
